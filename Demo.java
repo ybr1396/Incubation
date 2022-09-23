@@ -1,3 +1,6 @@
+// 1) Write a java program that takes a number as input and print its multiplication table up to 10.
+
+
 package assignments;
 
 public class Demo {

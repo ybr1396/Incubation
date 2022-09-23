@@ -4,8 +4,10 @@ import java.util.*;
 
 public class Power {
 
+	private static Scanner sc;
+
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+		sc = new Scanner(System.in);
 		System.out.println("Enter the No:");
 		int n1=sc.nextInt();
 		System.out.println("Enter the Power for that No:");

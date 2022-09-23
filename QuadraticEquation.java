@@ -4,10 +4,13 @@ import java.util.*;
 
 public class QuadraticEquation {
 
+	private static Scanner sc;
+	private static double real_number;
+	private static double imaginary_number;
+
 	public static void main(String[] args) {
 		double x2 = 0, x1 = 0;
-		double real_number,imaginary_number;
-		Scanner sc = new Scanner(System.in);
+		sc = new Scanner(System.in);
 		System.out.println("Enter the value of a:");
 		double a = sc.nextDouble();
 		
@@ -35,6 +38,22 @@ public class QuadraticEquation {
 		}
 
 
+	}
+
+	public static double getReal_number() {
+		return real_number;
+	}
+
+	public static void setReal_number(double real_number) {
+		QuadraticEquation.real_number = real_number;
+	}
+
+	public static double getImaginary_number() {
+		return imaginary_number;
+	}
+
+	public static void setImaginary_number(double imaginary_number) {
+		QuadraticEquation.imaginary_number = imaginary_number;
 	}
 
 }

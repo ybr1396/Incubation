@@ -4,8 +4,10 @@ import java.util.*;
 
 public class Integers {
 
+	private static Scanner sc;
+
 	public static void main(String[] args) {
-		Scanner sc=new Scanner(System.in);
+		sc = new Scanner(System.in);
 		System.out.println("Enter size of array");
 		int arrLen=sc.nextInt(),a=0,b=0,c=0;
 		int[]arr=new int[arrLen];

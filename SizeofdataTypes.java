@@ -1,6 +1,5 @@
+//3).Write a program to illustrate the size or range of various data types.
 package assignments;
-
-import java.util.*;
 
 public class SizeofdataTypes {
 

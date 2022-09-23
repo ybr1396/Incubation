@@ -1,12 +1,18 @@
+//3) Given two strings a and b.The task is to find if the string 'b' can be obtained by rotating another string 'a' by exactly 2 places
+// input: a=amazon b=azonam output=1
+//input : geeksforgeeks output: geeksgeeksfor output:0
+
 package assignments;
 
 import java.util.*;
 
 public class Rotating {
 
+	private static Scanner scan;
+
 	public static void main(String[] args) {
 		String a="",b="",result="",part1="",part2="";
-		Scanner scan = new Scanner(System.in);
+		scan = new Scanner(System.in);
 		System.out.println("Enter the 2 strings");
 		a=scan.nextLine();
 		b=scan.nextLine();
